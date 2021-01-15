@@ -21,8 +21,6 @@ knitr::opts_chunk$set(
 [![Build Status](https://travis-ci.com/eonurk/cinaR.svg?branch=master)](https://travis-ci.com/eonurk/cinaR)
 <!-- badges: end -->
 
-## Overview
-
 
 ## Installation
 ```{r, eval=FALSE}
@@ -41,19 +39,37 @@ cinaR(..., geneset = vp2008)
 ```
 
 ## Available Genesets
-This package contains 5 genesets curated from different sources
+This package contains 5 genesets curated from different sources.
 
 #### Immune Modules
+Immune system related modules from SLE patients published in [Nature Communications (2020)](https://doi.org/10.1038/s41467-020-14396-9)
 ```{r, eval=FALSE}
 data("VP2008")
 ```
+
 #### PBMC scRNAseq Modules
+Curated from PBMC scRNA-seq data (published via `cinaR`):
+```{r, eval=FALSE}
+data("PBMC-scRNAseq")
+```
 
 #### Wikipathways
+These genesets are curated from [wikipathways](https://www.wikipathways.org/index.php/WikiPathways):
+```{r, eval=FALSE}
+data("wiki")
+```
 
 #### Wikipathways Inflammation
+Hand-picked subset of inflammation related pathways from [wikipathways](https://www.wikipathways.org/index.php/WikiPathways):
+```{r, eval=FALSE}
+data("wiki-inf")
+```
 
 #### Dice Major Cell Types
+Major cell types curated from [DICE](https://dice-database.org/) database
+```{r, eval=FALSE}
+data("dice-major")
+```
 
 ## Contribution
 

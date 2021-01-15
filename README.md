@@ -9,8 +9,6 @@
 Status](https://travis-ci.com/eonurk/cinaR.svg?branch=master)](https://travis-ci.com/eonurk/cinaR)
 <!-- badges: end -->
 
-## Overview
-
 ## Installation
 
     # install.packages("devtools")
@@ -29,19 +27,41 @@ You can use these modules via setting `geneset` argument in
 
 ## Available Genesets
 
-This package contains 5 genesets curated from different sources
+This package contains 5 genesets curated from different sources.
 
 #### Immune Modules
+
+Immune system related modules from SLE patients published in [Nature
+Communications (2020)](https://doi.org/10.1038/s41467-020-14396-9)
 
     data("VP2008")
 
 #### PBMC scRNAseq Modules
 
+Curated from PBMC scRNA-seq data (published via `cinaR`):
+
+    data("PBMC-scRNAseq")
+
 #### Wikipathways
+
+These genesets are curated from
+[wikipathways](https://www.wikipathways.org/index.php/WikiPathways):
+
+    data("wiki")
 
 #### Wikipathways Inflammation
 
+Hand-picked subset of inflammation related pathways from
+[wikipathways](https://www.wikipathways.org/index.php/WikiPathways):
+
+    data("wiki-inf")
+
 #### Dice Major Cell Types
+
+Major cell types curated from [DICE](https://dice-database.org/)
+database
+
+    data("dice-major")
 
 ## Contribution
 
