@@ -1,6 +1,6 @@
 Package: cinaRgenesets
 Type: Package
-Title: Genesets along with cinaR
+Title: Ready-to-use curated genesets via cinaR
 Version: 0.2.1
 Authors@R: 
     c(person(given = "Onur",

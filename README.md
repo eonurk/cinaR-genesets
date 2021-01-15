@@ -7,12 +7,6 @@
 
 [![Build
 Status](https://travis-ci.com/eonurk/cinaR.svg?branch=master)](https://travis-ci.com/eonurk/cinaR)
-[![R build
-status](https://github.com/eonurk/cinaR/workflows/R-CMD-check/badge.svg)](https://github.com/eonurk/cinaR/actions)
-[![CRAN
-version](https://www.r-pkg.org/badges/version/cinaR)](https://cran.r-project.org/package=cinaR)
-[![CRAN
-download](https://cranlogs.r-pkg.org/badges/cinaR?color=orange)](https://cran.r-project.org/package=cinaR?color=orange)
 <!-- badges: end -->
 
 ## Overview
@@ -20,7 +14,34 @@ download](https://cranlogs.r-pkg.org/badges/cinaR?color=orange)](https://cran.r-
 ## Installation
 
     # install.packages("devtools")
-    devtools::install_github("eonurk/cinaRgenesets")
+    devtools::install_github("eonurk/cinaR-genesets")
+
+## Usage
+
+You can use these modules via setting `geneset` argument in
+[cinaR](https://eonurk.github.io/cinaR/):
+
+    library(cinaR)
+    library(cinaRgenesets)
+
+    data("VP2008")
+    cinaR(..., geneset = vp2008)
+
+## Available Genesets
+
+This package contains 5 genesets curated from different sources
+
+#### Immune Modules
+
+    data("VP2008")
+
+#### PBMC scRNAseq Modules
+
+#### Wikipathways
+
+#### Wikipathways Inflammation
+
+#### Dice Major Cell Types
 
 ## Contribution
 
