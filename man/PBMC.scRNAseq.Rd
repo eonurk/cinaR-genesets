@@ -13,4 +13,9 @@ data(PBMC.scRNAseq)
 \description{
 PBMC scRNAseq modules
 }
+\references{
+Márquez et al., 2020; Nehar-Belaid et al., 2020
+\doi{10.1038/s41590-020-0743-0}
+\doi{10.1038/s41467-020-14396-9}
+}
 \keyword{datasets}

@@ -15,6 +15,6 @@ Dice Major
 }
 \references{
 Schmiedel et al. (2018) Immunity 175:1701-1715
-(\href{https://doi.org/10.1016/j.cell.2018.10.022}{Cell})
+(\doi{10.1016/j.cell.2018.10.022})
 }
 \keyword{datasets}

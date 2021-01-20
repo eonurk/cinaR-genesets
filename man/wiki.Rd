@@ -15,6 +15,6 @@ Wikipathways
 }
 \references{
 Pico et al. (2008) PLOS Biology 
-(\href{https://doi.org/10.1371/journal.pbio.0060184}{PLOS Biology})
+(\doi{10.1371/journal.pbio.0060184})
 }
 \keyword{datasets}
