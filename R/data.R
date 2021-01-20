@@ -18,7 +18,7 @@
 #'
 #' @docType data
 #'
-#' @usage data(dice-major)
+#' @usage data(dice.major)
 #'
 #' @format An object of class GMT; see \code{read.gmt} from qusage package.
 #'
@@ -49,7 +49,7 @@
 #'
 #' @docType data
 #'
-#' @usage data(wiki-inf)
+#' @usage data(wiki.inf)
 #'
 #' @format An object of class GMT; see \code{read.gmt} from qusage package.
 #'
@@ -64,7 +64,7 @@
 #'
 #' @docType data
 #'
-#' @usage data(PBMC-scRNAseq)
+#' @usage data(PBMC.scRNAseq)
 #'
 #' @format An object of class GMT; see \code{read.gmt} from qusage package.
 #'

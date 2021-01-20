@@ -8,7 +8,7 @@
 An object of class GMT; see \code{read.gmt} from qusage package.
 }
 \usage{
-data(PBMC-scRNAseq)
+data(PBMC.scRNAseq)
 }
 \description{
 PBMC scRNAseq modules

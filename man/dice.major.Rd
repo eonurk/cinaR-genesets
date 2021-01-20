@@ -8,7 +8,7 @@
 An object of class GMT; see \code{read.gmt} from qusage package.
 }
 \usage{
-data(dice-major)
+data(dice.major)
 }
 \description{
 Dice Major

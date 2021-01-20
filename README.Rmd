@@ -50,7 +50,7 @@ data("VP2008")
 #### PBMC scRNAseq Modules
 Curated from PBMC scRNA-seq data (published via `cinaR`):
 ```{r, eval=FALSE}
-data("PBMC-scRNAseq")
+data("PBMC.scRNAseq")
 ```
 
 #### Wikipathways
@@ -62,13 +62,13 @@ data("wiki")
 #### Wikipathways Inflammation
 Hand-picked subset of inflammation related pathways from [wikipathways](https://www.wikipathways.org/index.php/WikiPathways):
 ```{r, eval=FALSE}
-data("wiki-inf")
+data("wiki.inf")
 ```
 
 #### Dice Major Cell Types
 Major cell types curated from [DICE](https://dice-database.org/) database
 ```{r, eval=FALSE}
-data("dice-major")
+data("dice.major")
 ```
 
 ## Contribution

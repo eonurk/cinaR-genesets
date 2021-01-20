@@ -40,7 +40,7 @@ Communications (2020)](https://doi.org/10.1038/s41467-020-14396-9)
 
 Curated from PBMC scRNA-seq data (published via `cinaR`):
 
-    data("PBMC-scRNAseq")
+    data("PBMC.scRNAseq")
 
 #### Wikipathways
 
@@ -54,14 +54,14 @@ These genesets are curated from
 Hand-picked subset of inflammation related pathways from
 [wikipathways](https://www.wikipathways.org/index.php/WikiPathways):
 
-    data("wiki-inf")
+    data("wiki.inf")
 
 #### Dice Major Cell Types
 
 Major cell types curated from [DICE](https://dice-database.org/)
 database
 
-    data("dice-major")
+    data("dice.major")
 
 ## Contribution
 
