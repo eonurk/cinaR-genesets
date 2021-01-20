@@ -22,7 +22,3 @@ biocViews:
 Depends: R (>= 3.5.0)
 Imports: 
 RoxygenNote: 7.1.1
-Suggests: 
-    knitr,
-    rmarkdown
-VignetteBuilder: knitr
