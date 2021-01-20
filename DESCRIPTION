@@ -1,6 +1,6 @@
 Package: cinaRgenesets
 Type: Package
-Title: Ready-to-Use Curated Genesets for cinaR
+Title: Ready-to-Use Curated Genesets for 'cinaR'
 Version: 0.1.0
 Authors@R: 
     c(person(given = "Onur",
@@ -12,7 +12,7 @@ Authors@R:
              role = "aut",
              comment = c(ORCID = "0000-0002-9772-3066"))
       )
-Description: Immune related gene sets provided along with the cinaR package. All of them are in .gmt format.
+Description: Immune related gene sets provided along with the 'cinaR' package.
 License: GPL-3
 Encoding: UTF-8
 LazyData: true

@@ -25,8 +25,8 @@
 #' @keywords datasets
 #'
 #' @references Schmiedel et al. (2018) Immunity 175:1701-1715
-#' (\href{https://doi.org/10.1016/j.cell.2018.10.022}{Cell})
-#'
+#' (\doi{10.1016/j.cell.2018.10.022})
+#' 
 "dice.major"
 
 
@@ -41,7 +41,7 @@
 #' @keywords datasets
 #'
 #' @references Pico et al. (2008) PLOS Biology 
-#' (\href{https://doi.org/10.1371/journal.pbio.0060184}{PLOS Biology})
+#' (\doi{10.1371/journal.pbio.0060184})
 #'
 "wiki"
 
@@ -56,7 +56,7 @@
 #' @keywords datasets
 #'
 #' @references Pico et al. (2008) PLOS Biology 
-#' (\href{https://doi.org/10.1371/journal.pbio.0060184}{PLOS Biology})
+#' (\doi{10.1371/journal.pbio.0060184})
 #'
 "wiki.inf"
 
@@ -67,8 +67,12 @@
 #' @usage data(PBMC.scRNAseq)
 #'
 #' @format An object of class GMT; see \code{read.gmt} from qusage package.
-#'
+#' 
 #' @keywords datasets
+#' 
+#' @references Márquez et al., 2020; Nehar-Belaid et al., 2020
+#' \doi{10.1038/s41590-020-0743-0}
+#' \doi{10.1038/s41467-020-14396-9}
 #'
 #'
 "PBMC.scRNAseq"
