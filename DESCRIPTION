@@ -1,7 +1,7 @@
 Package: cinaRgenesets
 Type: Package
 Title: Ready-to-Use Curated gene sets for 'cinaR'
-Version: 0.1.0
+Version: 0.1.1
 Authors@R: 
     c(person(given = "Onur",
              family = "Karakaslar",
