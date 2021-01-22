@@ -7,9 +7,18 @@
 
 [![Build
 Status](https://travis-ci.com/eonurk/cinaR.svg?branch=master)](https://travis-ci.com/eonurk/cinaR)
+[![CRAN
+version](https://www.r-pkg.org/badges/version/cinaRgenesets)](https://cran.r-project.org/package=cinaRgenesets)
 <!-- badges: end -->
 
 ## Installation
+
+    # CRAN mirror
+    install.packages("cinaRgenesets")
+
+### Development Version
+
+To get bug fix and use a feature from the development version:
 
     # install.packages("devtools")
     devtools::install_github("eonurk/cinaR-genesets")
@@ -58,7 +67,7 @@ Hand-picked subset of inflammation related pathways from
 
 #### Dice Major Cell Types
 
-Major cell types curated from [DICE](https://dice-database.org/)
+Major cell types curated from [DICE](https://www.dice-database.org/)
 database
 
     data("dice.major")

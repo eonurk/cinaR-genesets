@@ -19,10 +19,19 @@ knitr::opts_chunk$set(
 
 <!-- badges: start -->
 [![Build Status](https://travis-ci.com/eonurk/cinaR.svg?branch=master)](https://travis-ci.com/eonurk/cinaR)
+[![CRAN version](https://www.r-pkg.org/badges/version/cinaRgenesets)](https://cran.r-project.org/package=cinaRgenesets)
 <!-- badges: end -->
 
 
 ## Installation
+
+```{r, eval=FALSE}
+# CRAN mirror
+install.packages("cinaRgenesets")
+```
+
+### Development Version
+To get bug fix and use a feature from the development version:
 ```{r, eval=FALSE}
 # install.packages("devtools")
 devtools::install_github("eonurk/cinaR-genesets")
@@ -66,7 +75,7 @@ data("wiki.inf")
 ```
 
 #### Dice Major Cell Types
-Major cell types curated from [DICE](https://dice-database.org/) database
+Major cell types curated from [DICE](https://www.dice-database.org/) database
 ```{r, eval=FALSE}
 data("dice.major")
 ```
