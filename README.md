@@ -9,6 +9,8 @@
 Status](https://travis-ci.com/eonurk/cinaR.svg?branch=master)](https://travis-ci.com/eonurk/cinaR)
 [![CRAN
 version](https://www.r-pkg.org/badges/version/cinaRgenesets)](https://cran.r-project.org/package=cinaRgenesets)
+[![CRAN
+download](https://cranlogs.r-pkg.org/badges/cinaRgenesets?color=orange)](https://cran.r-project.org/package=cinaRgenesets?color=orange)
 <!-- badges: end -->
 
 ## Installation
