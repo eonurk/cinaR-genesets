@@ -77,3 +77,21 @@
 #'
 "PBMC.scRNAseq"
 
+
+#' Activated Immune cells
+#'
+#' @docType data
+#'
+#' @usage data(activated.immune)
+#'
+#' @format An object of class GMT; see \code{read.gmt} from qusage package.
+#'
+#' @keywords datasets
+#'
+#' @references Lawlor et al. (2020) BioArxiv
+#' \href{10.1101/2020.12.23.424147}
+#'
+"activated.immune"
+
+
+

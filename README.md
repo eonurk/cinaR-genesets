@@ -38,7 +38,7 @@ You can use these modules via setting `geneset` argument in
 
 ## Available Genesets
 
-This package contains 5 genesets curated from different sources.
+This package contains 6 genesets curated from different sources.
 
 #### Immune Modules
 
@@ -49,7 +49,8 @@ Communications (2020)](https://doi.org/10.1038/s41467-020-14396-9)
 
 #### PBMC scRNAseq Modules
 
-Curated from PBMC scRNA-seq data (published via `cinaR`):
+Curated from PBMC scRNA-seq data published in
+[here](https://www.nature.com/articles/s41590-020-0743-0):
 
     data("PBMC.scRNAseq")
 
@@ -70,9 +71,17 @@ Hand-picked subset of inflammation related pathways from
 #### Dice Major Cell Types
 
 Major cell types curated from [DICE](https://www.dice-database.org/)
-database
+database:
 
     data("dice.major")
+
+#### Activated Immune Cells
+
+Activated immune cells curated by [Ucarlab](https://www.ucarlab.com/)
+and published in
+[here](https://www.biorxiv.org/content/10.1101/2020.12.23.424147v1.abstract):
+
+    data("activated.immune")
 
 ## Contribution
 
