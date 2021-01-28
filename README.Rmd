@@ -72,7 +72,7 @@ data("wiki")
 #### Wikipathways Inflammation
 Hand-picked subset of inflammation related pathways from [wikipathways](https://www.wikipathways.org/index.php/WikiPathways):
 ```{r, eval=FALSE}
-data("wiki.inf")
+data("wiki.immune")
 ```
 
 #### Dice Major Cell Types

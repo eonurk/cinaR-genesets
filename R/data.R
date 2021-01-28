@@ -45,11 +45,11 @@
 #'
 "wiki"
 
-#' Wikipathways inflammation
+#' Wikipathways immune
 #'
 #' @docType data
 #'
-#' @usage data(wiki.inf)
+#' @usage data(wiki.immune)
 #'
 #' @format An object of class GMT; see \code{read.gmt} from qusage package.
 #'
@@ -58,7 +58,7 @@
 #' @references Pico et al. (2008) PLOS Biology 
 #' (\doi{10.1371/journal.pbio.0060184})
 #'
-"wiki.inf"
+"wiki.immune"
 
 #' PBMC scRNAseq modules
 #'
