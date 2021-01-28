@@ -61,12 +61,12 @@ These genesets are curated from
 
     data("wiki")
 
-#### Wikipathways Inflammation
+#### Wikipathways Immune
 
-Hand-picked subset of inflammation related pathways from
+Hand-picked subset of immune related pathways from
 [wikipathways](https://www.wikipathways.org/index.php/WikiPathways):
 
-    data("wiki.inf")
+    data("wiki.immune")
 
 #### Dice Major Cell Types
 

@@ -69,8 +69,8 @@ These genesets are curated from [wikipathways](https://www.wikipathways.org/inde
 data("wiki")
 ```
 
-#### Wikipathways Inflammation
-Hand-picked subset of inflammation related pathways from [wikipathways](https://www.wikipathways.org/index.php/WikiPathways):
+#### Wikipathways Immune
+Hand-picked subset of immune related pathways from [wikipathways](https://www.wikipathways.org/index.php/WikiPathways):
 ```{r, eval=FALSE}
 data("wiki.immune")
 ```
